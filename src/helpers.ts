@@ -1,6 +1,6 @@
 export type User = {
-  username: String;
-  id: Number;
+  username: string;
+  id: number;
 }
 
 export const generateUsers = (count: number) =>{
@@ -9,7 +9,7 @@ const results: User[] = [];
 for(let i =0; i < count; i++){
   results.push({
     username: `User ${i}`,
-    id: count,
+    id: i,
   }); 
 }
 

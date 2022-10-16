@@ -10,7 +10,7 @@ describe('helpers suite', () => {
     const users = generateUsers(1);
 
     expect(users).toEqual([{
-      "id": 1,
+      "id": 0,
       "username": "User 0",
     }]);
   })
