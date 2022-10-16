@@ -6,7 +6,8 @@
 <script setup>
 import { ref } from 'vue'; 
 import Banner from './components/Banner.vue';
-const testMessage = ref('Hello world');
+import { toUpperCase } from './helpers';
+const testMessage = ref(toUpperCase('Hello world'));
 </script>
 
 <style scoped>
