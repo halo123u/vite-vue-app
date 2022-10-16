@@ -1,3 +1,4 @@
-console.log('hello world')
-const a = [1,2,3,4,4]
-console.log(a)
+import { createApp } from "vue";
+import App from './App.vue';
+
+createApp(App).mount('#app');
