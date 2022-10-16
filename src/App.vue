@@ -8,7 +8,8 @@
 import { ref } from 'vue'; 
 import Banner from './components/Banner.vue';
 import UserList from './components/UserList.vue';
-import { toUpperCase, generateUsers, User } from './helpers';
+import type { User } from './helpers';
+import { toUpperCase, generateUsers } from './helpers';
 const testMessage = ref(toUpperCase('Hello world'));
 const users = ref<User []>(generateUsers(5));
 </script>
